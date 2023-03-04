@@ -1,0 +1,29 @@
+#text_animation{
+    font-size: 40px;
+    margin-top: 50px;
+    color: orangered;
+    text-align: center;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 5px grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: entrada_salida 5s infinite;
+}
+
+@-webkit-keyframes entrada_salida {
+    0% {
+        letter-spacing: 1em;
+        opacity: 0;
+    }
+    20% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+    80% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+    100% {
+        letter-spacing: 1em;
+        opacity: 0;
+    }
+}
